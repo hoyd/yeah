@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-void average ( vector <int> buhh ){
+double average ( vector <int> buhh ){
 
     double avg;
     int sum = 0;
@@ -10,8 +10,8 @@ void average ( vector <int> buhh ){
 
         for ( x : buhh ){
             sum += x;
-            avg = sum/5.0;
     }
+        avg = sum/5.0;
 }
 
 int main ()
